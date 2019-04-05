@@ -1,0 +1,212 @@
+
+            .container-fluid{
+              padding: 0px;
+            }
+            h1, h2, h3, h4, h5, h6, p{
+              margin: 0px;
+              padding: 0px;
+
+            }
+
+            .navbar .active {
+              border-bottom: 3px solid #000;
+            }
+            .navbar .active a{
+              font-weight: bold;
+
+            }
+            .navbar {
+              background-color: #fff !important;
+            }
+            .navbar-brand{
+              width: 20%;
+            }
+            .black{
+               min-height: 60px !important;
+
+            }
+            .black .navbar-brand img{
+              margin-left: 10%;
+              height: 60px;
+            }
+            #topheader{
+              min-height: 100px;
+            }
+            .navbar-brand img{
+              height: 100px;
+              max-width: 50%;
+              margin-left: 10%;
+            }
+            .navbar .nav-item{
+              margin-left: 20px;
+            }
+
+            .news{
+              margin-left: 5%;
+              margin-right: 5%;
+            }
+            .news h1{
+              text-decoration: underline;
+              font-weight: bold;
+            }
+
+            #ads-full-width{
+              height: 150px;
+            }
+            .ads{
+              width: 100%;
+              height: 230px;
+            }
+            .ads img{
+              width: 100%;
+              height: 100%;
+            }
+
+            #home{
+              height: 500px;
+              margin-right: 5%;
+              margin-left: 5%;
+            }
+            footer{
+              width: 100%;
+              height: 400px;
+              background-color: #000;
+              color: #fff;
+
+            }
+            footer h1{
+              text-align: center;
+            }
+            footer hr{
+              width: 100%;
+              size: 7px;
+              background-color: #fff;
+            }
+            
+            footer #footer_wraper{
+              height: 65%;
+              width: 90%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            footer #footer_wraper #footer_logo {
+              float: left;
+              height: 100%;
+              border-right: 2px #fff solid;
+            }
+            footer #footer_wraper #footer_logo img{
+              height: 100%;
+              width: 100%;
+            }
+            footer #footer_wraper #company_address{
+              float: left;
+              text-align: left;
+            }
+            footer #footer_wraper #about_company{
+              float: right;
+            }
+
+            #entertainment{
+              width: 23%;
+              margin-right: 1%;
+              height: 90px;
+              margin-top: 20px;
+              display: inline-block;
+            }
+            #entertainment img{
+              width: 40%;
+              float: left;
+            }
+            #entertainment a{
+              width: 59%;
+              font-size: 19px;
+              text-decoration: none;
+              margin-left: 1%;
+              float: right;
+            }
+            #latest_business_news, #latest_entertainment_news{
+              height: 400px;
+              position: relative;
+              float: left;
+            }
+            #latest_business_news #image{
+              width: 100%;
+              height: 100%;
+              position: absolute;
+            }
+            #image img{
+              width: 100%;
+              height: 100%;
+            }
+            #latest_business_news #caption{
+              position: absolute;
+              margin-top: 50%;
+              margin-left: 5%;
+              background-color: rgba(0,0,0,0.8);
+              padding: 10px;
+            }
+            #caption a{
+              color: #fff;
+            }
+            #other_news{
+              height: 100px;
+              float: left;
+            }
+            #other_news_title{
+              margin-left: 20px;
+              margin-bottom: 30px;
+            }
+            #other_news_title a{
+              color: #000;
+            }
+            #currency{
+              float: right;
+              color: #000;
+              background-color: none;
+            }
+            #latest_entertainment_news #caption{
+              position: absolute;
+              margin-top: 50%;
+              margin-left: 5%;
+              background-color: rgba(0,0,0,0.8);
+              padding: 10px;
+            }
+            #entertainment_image{
+              width: 100%;
+              height: 80px;
+              float: right;
+              margin-bottom: 10px;
+              border-bottom: 1px solid gray;
+
+            }
+            #entertainment_image a{
+              color: #000;
+            }
+            #entertainment_image a:hover{
+              color: blue;
+              text-decoration: none;
+            }
+@media only screen and (max-width: 576px) {
+  h1{
+      font-size: 7vw;
+  }
+  h2{
+      font-size: 5vw;
+  }
+  h3{
+    font-size: 4vw;
+  }
+  p{
+    font-size: 4vw;
+  }
+  #ads-full-width {
+    height: 70px;
+  }
+  #home{
+    height: 330px;
+  }
+  footer{
+    height: 200px;
+  }
+
+}

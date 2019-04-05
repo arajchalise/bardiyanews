@@ -20,6 +20,7 @@ class CreateNewsTable extends Migration
             $table->string('category');
             $table->tinyInteger('priority')->default(0);
             $table->string('photo');
+            $table->string('author');
             $table->timestamps();
         });
     }

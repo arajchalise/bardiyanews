@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <title>Bardiya News</title>
 
         <link rel="icon" href="logo.png" type="image/gif">
@@ -22,36 +22,32 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item">
-                        <a class="nav-link" href="">गृहपृष्ठ</a>
+                        <a class="nav-link" href="{{ route('welcome') }}">गृहपृष्ठ</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#business_news">ब्यबसाय</a>
+                        <a class="nav-link" href="{{ route('welcome') }}#business_news">ब्यबसाय</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#lifestyle_news">जीवनशैली</a>
+                        <a class="nav-link" href="{{ route('welcome') }}#lifestyle_news">जीवनशैली</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#entertainment_news">मनोरञ्जन </a>
+                        <a class="nav-link" href="{{ route('welcome') }}#entertainment_news">मनोरञ्जन </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#sports_news">खेलकुद </a>
+                        <a class="nav-link" href="{{ route('welcome') }}#sports_news">खेलकुद </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#education_news">शिक्षा</a>
+                        <a class="nav-link" href="{{ route('welcome') }}#education_news">शिक्षा</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#health_news">स्वास्थ्य</a>
+                        <a class="nav-link" href="{{ route('welcome') }}#health_news">स्वास्थ्य</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#literature_news">साहित्य</a>
-                      </li>
-
                     </ul>
                 </div>
             </nav>
             <div class="clearfix"></div>
             @yield('content')
-
+            <div class="clearfix"></div>
             <footer>
               <h1>Bardiya News</h1>
               <hr />
@@ -60,11 +56,11 @@
                   <img src="{{ asset('logo_footer.png') }}">
                 </div>
                 <div id="company_address" class="col-lg-3 col-md-3">
-                  <!-- <p>Bardiya News<br>Address<br>Phone<br>Email<br></p> -->
+                  <p>Bardiya News<br>Address<br>Phone<br>Email<br></p>
                 </div>
                 <div id="about_company" class="col-lg-6 col-md-6">
                   <h3>About Us</h3>
-                  <p>Contents are beign uploaded soon</p>
+                  <p>A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. ... This makes it easier to see when one paragraph ends and another begins. In most organized forms of writing, such as essays, paragraphs contain a topic sentence .<br>A paragraph is a group of words put together to form a group that is usually longer than a sentence. Paragraphs are often made up of several sentences. ... This makes it easier to see when one paragraph ends and another begins. In most organized forms of writing, such as essays, paragraphs contain a topic sentence .</p>
                 </div>
               </div>
               <hr />
